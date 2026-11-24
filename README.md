@@ -1,4 +1,4 @@
-Medusa:
+Medusa
 ----------
 
 Medusa is a worm targeting endpoints with Windows OS, using the SMB protocol for propagating itself across the LAN. Each time executed, Medusa will propagate to one computer only in the LAN, which (as i like to believe) gives the worm additional effect of mystery and making it quieter. The malware is written in pure C and using the Windows API and the winsock library (ws2_32.dll).
@@ -57,6 +57,7 @@ You can change the process Medusa will terminate if you wish to. Modify the PROC
 
 Meanwhile our first victim is suffering from lack of microsoft edge, the next victim finds on its desktop the worm that had propagated from the first victim. The new victim will execute the worm, and all this happens over and over again.
 
+<br></br>
 
 
 ### Usage in .txt files:
@@ -70,6 +71,7 @@ In those files, each username/password is saved in its own line. In the propagat
 
 You can edit those files as you wish, of course. Just make sure to put them in the right path and to not change their names, and everything should be fine.
 
+<br></br>
 
 ### Adding version info file:
 
