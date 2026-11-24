@@ -5,6 +5,8 @@ Medusa is a worm targeting endpoints with Windows OS, using the SMB protocol for
 
 For making itself look as a legitimate executable, Medusa disguises itself as an update for Microsoft edge browser (msedge).
 
+It is important to note that Medusa can be discovered by the windows defender. For executing Medusa with no interruptions, turn off windows defender in all your network (or at least on the computer you execute medusa and the first next computer Medusa will propagate to). Windows defender will delete the executable!
+
 
 ### Medusa's attack flow:
 
